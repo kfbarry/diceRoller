@@ -1,0 +1,8 @@
+<h1>D12</h1>
+<button (click)="roll12()">Roll Me!</button>
+<h2>{{ currentRoll }}</h2>
+<ul>
+  <li *ngFor="let roll of pastRolls">
+    <p>{{ roll }}</p>
+  </li>
+</ul>
